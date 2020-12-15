@@ -20,7 +20,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     author='Masen Furer',
     author_email='m_github@0x26.net',
-    url='https://github.west.isilon.com/masenf/isilon-machinedb',
+    url='https://github.com/masenf/isilon-machinedb',
     package_dir={"": 'src'},
     packages=setuptools.find_packages('src'),
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],

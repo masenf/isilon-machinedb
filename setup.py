@@ -23,6 +23,7 @@ setuptools.setup(
     url='https://github.com/masenf/isilon-machinedb',
     package_dir={"": 'src'},
     packages=setuptools.find_packages('src'),
+    namespace_packages=["isilon"],
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
     python_requires='>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,<4',
     setup_requires=[
